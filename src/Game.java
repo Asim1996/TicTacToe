@@ -87,8 +87,8 @@ public class Game {
      * @throws IllegalArgumentException if the move is an illegal move
      Gives the winner in O(1) times
      Precomputes scores for every row,column and diagonal
-     and onces it hits borad size
-     The player wins
+     and onces it hits board size
+     The respective player wins
      */
     public int move(int row, int col, int player) throws IllegalArgumentException {
         if (row < 0 || col < 0 || row >= n || col >= n) {
