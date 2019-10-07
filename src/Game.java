@@ -46,7 +46,7 @@ public class Game {
 
     // A function to show the instructions
     public void showInstructions() {
-        System.out.print("\t\t\t Tic-Tac-Toe (Human v/s Computer)\n\n");
+        System.out.print("\t\t\t Tic-Tac-Toe Game (Human v/s Computer)\n\n");
         System.out.print("Choose a cell numbered from 1 to 9 as below and play\n\n");
 
         System.out.print("\t\t\t 1 | 2 | 3 \n");
